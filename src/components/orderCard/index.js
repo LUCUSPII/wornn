@@ -1,4 +1,4 @@
-import { View, Text, SafeAreaView, ScrollView, TouchableOpacity, Image} from 'react-native'
+import { Text, ScrollView, TouchableOpacity, Image} from 'react-native'
 import { useNavigation } from '@react-navigation/native'
 import { useEffect, useState } from 'react'
 import { db } from "../../../firebase/firebase"

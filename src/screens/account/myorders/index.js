@@ -29,7 +29,7 @@ const MyOrdersScreen = () => {
       </View>
 
         <View>
-          {show === "sold" && <BoughtOrSoldOrderSelector filter={show}/>}
+          {show && <BoughtOrSoldOrderSelector filter={show}/>}
         </View>
     </SafeAreaView>
   )
